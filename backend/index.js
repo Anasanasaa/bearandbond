@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://bearandbond-frontend-one.onrender.com" , "http://localhost:5174"],
+ origin:["https://bearandbond-frontend-one.onrender.com" , "https://bearandbond-dmin.onrender.com"],
  credentials:true
 }))
 
